@@ -99,7 +99,7 @@ okBtn.addEventListener("click", () => {
 
     popUp.classList.toggle("hide");
 
-    if(plyrTotal >= 10) {
+    if (plyrTotal >= 10) {
         cssClass();
         winner.classList.remove("hide");
 
@@ -150,6 +150,6 @@ closeBtn.addEventListener("click", () => {
 })
 
 // service worker registration
-if(window.navigator.serviceWorker){
-window.navigator.serviceWorker.register("./sw.js"); 
+if (window.navigator.serviceWorker) {
+    window.navigator.serviceWorker.register("./sw.js");
 }

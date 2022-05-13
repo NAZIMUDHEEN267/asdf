@@ -56,7 +56,7 @@
     "scope": ".",
     "display": "standalone",
     "orientation": "portrait",
-    "start_url": "index.html",
+    "start_url": "./index.html",
     "theme_color": "#9c0e6f",
     "background_color": "#c7284a",
     "description": "Rock Paper Scissor",
